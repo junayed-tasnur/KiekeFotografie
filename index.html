@@ -12,17 +12,19 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- css link -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- navbar section start -->
-    <nav class="navbar m-2 navbar-expand-lg navbar-light bg-white w-100">
+    <nav class="navbar navbar-expand-sm">
       <div
         class="container-fluid px-md-5 mx-md-5 d-flex align-item-center justify-content-between"
       >
-        <img src="/Images/1 .png" alt="" />
+        <img src="/Images/1 .png" alt="" class="w-auto gap-2" />
 
         <ul class="navbar-nav d-none d-md-flex align-items-lg-center fs-5">
           <li class="nav-item text-white">
@@ -133,50 +135,168 @@
       <h1 class="text-center fw-bold">
         Our <span class="span-color">Portfolio</span>
       </h1>
-      <!-- Portfolio Filters -->
-      <div class="for-link fs-5 d-flex justify-content-around mb-4 mt-4 fs-md-6 rounded bg-white ">
-        <a href="#" class="active">All</a>
-        <a href="#">Childrens</a>
+      <div
+        class="for-link fs-5 d-flex justify-content-around mb-4 mt-4 fs-md-6 rounded bg-white"
+      >
+        <a href="#">All</a>
+        <a href="#" class="text-primary">Childrens</a>
         <a href="#">Portraits</a>
         <a href="#">Family</a>
         <a href="#">Other Photography</a>
       </div>
 
-      <!-- Portfolio Grid -->
-      <div class="portfolio-container">
-        <div class="portfolio-item wide">
-            <img src="Images/7.png" alt="Image 1">
-        </div>
-        <div class="portfolio-item square">
-            <img src="Images/8.png" alt="Image 2">
-        </div>
-        <div class="portfolio-item square">
-            <img src="image3.jpg" alt="Image 3">
-        </div>
-        <div class="portfolio-item tall">
-            <img src="image4.jpg" alt="Image 4">
-        </div>
-        <div class="portfolio-item square">
-            <img src="image5.jpg" alt="Image 5">
-        </div>
-        <div class="portfolio-item wide">
-            <img src="image6.jpg" alt="Image 6">
-        </div>
-        <div class="portfolio-item square">
-            <img src="image7.jpg" alt="Image 7">
-        </div>
-        <div class="portfolio-item square">
-            <img src="image8.jpg" alt="Image 8">
-        </div>
-        <div class="portfolio-item square">
-            <img src="image9.jpg" alt="Image 9">
-        </div>
-    </div>
+      <!-- Gallery -->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img src="Images/8.png" class="w-100 rounded mb-4" alt="" />
 
-    </div>
+          <img
+            src="Images/7.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+        </div>
 
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="Images/14.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="Images/11.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="Images/9.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="Images/13.png"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+          <img
+            src="Images/12.png"
+            class="w-100 shadow-1-strong rounded mt-3 mb-4"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
     <!-- Portfolio section end -->
 
+    <!-- price section start -->
+
+    <div class="container my-5">
+      <h1 class="text-center fw-bold mb-4">Prices</h1>
+      <div class="row justify-content-center">
+        <!-- First Card -->
+        <div class="col-md-4 mb-4 d-flex">
+          <div class="card text-center shadow-sm h-100 w-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold px-mb-4">
+                Children's photography/ family/pregnancy/ loveshoot
+              </h5>
+              <p class="card-text flex-grow-1">
+                The price for this is €50.00 (incl. VAT) and takes approximately
+                one hour. For that you get 10/15 edited digital files in large
+                format.
+              </p>
+              <h3 class="fw-bold mt-2">€50.00</h3>
+              <a href="#" class="btn btn-color text-white rounded-pill mt-3"
+                >Get Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-md-4 mb-4 d-flex">
+          <div
+            class="card text-center bg-dark text-white shadow-sm h-100 w-100"
+          >
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Lifestyle Photography</h5>
+              <p class="card-text flex-grow-1 mt-3">
+                Lifestyle photography takes place at your home in a relaxed
+                setting. The price depends on how long we take. Inquire about
+                the possibilities.
+              </p>
+              <h3 class="fw-bold mt-2">€50.00</h3>
+              <a href="#" class="btn btn-light rounded-pill mt-3"
+                >Get Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Card -->
+        <div class="col-md-4 mb-4 d-flex">
+          <div class="card text-center shadow-sm h-100 w-100">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title fw-bold">Portrait Photography</h5>
+              <p class="card-text flex-grow-1 mt-5">
+                Portrait photography and girlfriend shoots are also possible.
+              </p>
+              <h3 class="fw-bold mt-2">€50.00</h3>
+              <a href="#" class="btn btn-color text-white rounded-pill mt-3"
+                >Get Purchase</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- price section end -->
+
+
+    <!-- client section start -->
+
+    <div class="container my-5 p-5" style="background-color: #f5f1fa; border-radius: 20px;">
+      <div class="row align-items-center">
+        <!-- Left Side: Text Content -->
+        <div class="col-md-6">
+          <h6 class="text-uppercase" style="color: #7e3af2;">Testimonials</h6>
+          <h2 class="fw-bold">What Our Clients Say</h2>
+          <p class="mt-4">
+            This photography website is a true gem for anyone who appreciates artistry and storytelling through the lens. The images are awe-inspiring, and the website provides an engaging and immersive experience. With a few minor enhancements in user-friendliness and performance, it could become an even more exceptional platform for showcasing photography talent.
+          </p>
+    
+          <!-- User Info and Navigation Arrows -->
+          <div class="d-flex align-items-center gap-2 mt-4">
+            <img src="Images/for-btn.png" class="rounded-circle me-3" alt="User Photo">
+            <div>
+              <h6 class="fw-bold mb-0">Amane Indahnya</h6>
+              
+            </div>
+            <div class="">
+              <button class="btn btn-outline-secondary rounded-circle me-2 gap-3">
+                <i class="fas fa-arrow-left"></i>
+              </button>
+              <button class="btn btn-outline-secondary rounded-circle">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Right Side: Image -->
+        <div class="col-md-6 text-center">
+          <img src="Images/17.png" class="img-fluid rounded" alt="Client Image">
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- client section end -->
     <!-- Bootstrap script link -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

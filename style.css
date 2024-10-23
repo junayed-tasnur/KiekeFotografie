@@ -46,9 +46,7 @@ li a:hover {
   color: black;
 }
 .for-link{
-    box-shadow: 10px 10px 5px #c2bbbb;
-
-    
+    box-shadow: 10px 10px 5px #d1c3c3;
 }
 .portfolio-item {
   overflow: hidden;
@@ -58,4 +56,8 @@ li a:hover {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+for-height{
+  height: 75px;
 }
