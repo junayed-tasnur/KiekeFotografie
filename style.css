@@ -61,3 +61,22 @@ li a:hover {
 for-height{
   height: 75px;
 }
+
+
+
+.contact-form {
+  width: 60%;
+}
+.contact-info{
+  width: 35%;
+  height: 400px;
+  background-color: #f3e8ff;
+  
+}
+.contact-info h5 {
+  margin-bottom: 20px;
+}
+.contact-info p {
+  margin-bottom: 10px;
+}
+
