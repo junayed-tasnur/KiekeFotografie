@@ -12,10 +12,16 @@
 body {
   font-family: "Quicksand", sans-serif;
 }
+/* nav section */
+.navbar-nav {
+  gap: 20px;
+}
 
 .btn-color {
   background: #fe8c45;
 }
+
+/* for all span tag color */
 .span-color {
   color: #8a47f6;
 }
@@ -27,9 +33,6 @@ body {
   font-size: 74px;
 }
 
-.navbar-nav {
-  gap: 20px;
-}
 li a:hover {
   background-color: #fe8c45;
   padding: 3px;
@@ -48,6 +51,8 @@ li a:hover {
 .for-link{
     box-shadow: 10px 10px 5px #d1c3c3;
 }
+/* portfoli section css */
+
 .portfolio-item {
   overflow: hidden;
   border-radius: 10px;
@@ -58,25 +63,42 @@ li a:hover {
   height: 100%;
 }
 
-for-height{
-  height: 75px;
-}
-
-
-
+/* contact section css */
 .contact-form {
   width: 60%;
 }
+
 .contact-info{
   width: 35%;
   height: 400px;
   background-color: #f3e8ff;
   
 }
-.contact-info h5 {
-  margin-bottom: 20px;
-}
 .contact-info p {
   margin-bottom: 10px;
 }
-
+/* footer section css */
+.social-icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff20;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+.social-icon i {
+  color: white;
+}
+.social-icon:hover {
+  background-color: #ffffff40;
+}
+@media (max-width: 576px) {
+  .footer-row {
+    flex-direction: column; 
+    text-align: center;
+  }
+  .footer-row .col-md-4 {
+    margin-bottom: 15px; 
+  }
+}
